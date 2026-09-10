@@ -60,6 +60,9 @@ export default function Login() {
         <p className="auth-switch">
           アカウントをお持ちでない方は<Link to="/signup">会員登録</Link>
         </p>
+        <p className="auth-switch">
+          <Link to="/forgot-password">パスワードをお忘れですか？</Link>
+        </p>
       </form>
     </div>
   )
