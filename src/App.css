@@ -149,7 +149,108 @@
 }
 
 .property-area {
+  margin: 0 0 6px;
+  font-size: 13px;
+  color: #666;
+}
+
+.property-layout {
   margin: 0;
   font-size: 13px;
   color: #666;
+}
+
+.property-toolbar {
+  margin-bottom: 20px;
+}
+
+.property-toolbar button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.empty-state {
+  color: #777;
+  font-size: 14px;
+}
+
+.property-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 14px;
+}
+
+.edit-button,
+.delete-button,
+.cancel-button {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 13px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  background: #fff;
+}
+
+.edit-button:hover {
+  background: #f0f0f0;
+}
+
+.delete-button {
+  color: #d92d20;
+  border-color: #f3d0cc;
+}
+
+.delete-button:hover {
+  background: #fdf1f0;
+}
+
+/* 物件登録・編集フォーム */
+.property-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+}
+
+.form-row label {
+  margin-bottom: 4px;
+  font-size: 13px;
+  color: #444;
+}
+
+.form-row input {
+  padding: 8px 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.form-actions button[type='submit'] {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  background: #2563eb;
+  color: #fff;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.form-actions button[type='submit']:disabled {
+  background: #93b4f0;
+  cursor: not-allowed;
 }
